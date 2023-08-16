@@ -1,0 +1,125 @@
+<style>
+            
+            /* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(/Users/juans/Downloads/animated\ crocodile\ d.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+/* Estilos para el encabezado */
+header {
+    font-family: 'Tilt Prism', cursive;
+    text-align: center;
+    padding: 120px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 170px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    margin-top: 2px;
+}
+header h2 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+header h3 {
+    font-size: 30px;
+    opacity: 0.8;
+    font-weight: 300;
+    margin-top: 3px;
+}
+
+/* Estilos para la sección de productos */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.product {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    opacity: 0.8;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buy-btn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para el espacio interior y el footer */
+.inner-space {
+    padding: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(128, 127, 127, 0.7);
+}
+
+/* Estilos para enlaces de redes sociales */
+.social-links a {
+    color: rgb(24, 23, 23);
+    margin: 0 10px;
+    font-size: 20px;
+}
+header {
+    /* ... otros estilos ... */
+    height: 20vh; /* Alto de viewport */
+}
+
+.products {
+    /* ... otros estilos ... */
+    height: 50vh;
+}
+
+.inner-space {
+    /* ... otros estilos ... */
+    padding: 100px 50px; /* Ajusta el espacio vertical */
+}
+
+footer {
+    /* ... otros estilos ... */
+    height: 6vh;
+}
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
